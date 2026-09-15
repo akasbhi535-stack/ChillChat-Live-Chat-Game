@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ChillChat - Chat</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <header class="header">
+
+            <button onclick="goHome()">←</button>
+
+            <h1>💬 Chat</h1>
+
+            <p>Live conversation</p>
+
+        </header>
+
+
+        <main>
+
+            <!-- Chat User -->
+
+            <div class="chat-user">
+
+                <div class="avatar">
+                    👤
+                </div>
+
+                <div>
+                    <h3>ChillChat User</h3>
+                    <p>🟢 Online</p>
+                </div>
+
+            </div>
+
+
+            <!-- Messages -->
+
+            <div id="messages" class="messages">
+
+                <div class="message received">
+                    Hey bro! 👋
+                </div>
+
+                <div class="message sent">
+                    Hey! What's up? 😎
+                </div>
+
+            </div>
+
+
+            <!-- Message Input -->
+
+            <div class="message-box">
+
+                <input
+                    type="text"
+                    id="messageInput"
+                    placeholder="Type a message..."
+                >
+
+                <button onclick="sendMessage()">
+                    ➤
+                </button>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <script src="chat.js"></script>
+
+</body>
+
+</html>
