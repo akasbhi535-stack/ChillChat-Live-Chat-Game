@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ChillChat - Profile</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <header class="header">
+        <button onclick="goHome()">←</button>
+        <h1>👤 Profile</h1>
+        <p>Your ChillChat profile</p>
+    </header>
+
+    <main>
+
+        <div class="profile-card">
+
+            <div class="profile-avatar">
+                👤
+            </div>
+
+            <h2 id="profileName">ChillChat User</h2>
+
+            <p id="profileUsername">@chilluser</p>
+
+            <p class="online-status">
+                🟢 Online
+            </p>
+
+        </div>
+
+
+        <div class="profile-info">
+
+            <div class="info-box">
+                <span>👥</span>
+                <div>
+                    <b>Friends</b>
+                    <p id="friendsCount">0</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <span>🎮</span>
+                <div>
+                    <b>Games Played</b>
+                    <p id="gamesCount">0</p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <span>🏆</span>
+                <div>
+                    <b>Score</b>
+                    <p id="scoreCount">0</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="profile-actions">
+
+            <button onclick="editProfile()">
+                ✏️ Edit Profile
+            </button>
+
+            <button onclick="showSettings()">
+                ⚙️ Settings
+            </button>
+
+            <button onclick="logout()">
+                🚪 Logout
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="profile.js"></script>
+
+</body>
+</html>
