@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ChillChat - Live Chat & Games</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <header class="header">
+            <h1>💬 ChillChat</h1>
+            <p>Live Chat & Games</p>
+        </header>
+
+        <main>
+
+            <div class="welcome">
+                <h2>Welcome to ChillChat 👋</h2>
+                <p>Chat with friends and play games.</p>
+            </div>
+
+            <div class="buttons">
+
+                <button onclick="openChat()">
+                    💬 Live Chat
+                </button>
+
+                <button onclick="openGames()">
+                    🎮 Games
+                </button>
+
+                <button onclick="openProfile()">
+                    👤 Profile
+                </button>
+
+            </div>
+
+        </main>
+
+        <nav class="bottom-nav">
+
+            <button onclick="goHome()">🏠<small>Home</small></button>
+
+            <button onclick="openChat()">💬<small>Chat</small></button>
+
+            <button onclick="openGames()">🎮<small>Games</small></button>
+
+            <button onclick="openProfile()">👤<small>Profile</small></button>
+
+        </nav>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
